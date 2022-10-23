@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&display=swap');
+
+body{
+    background-size: cover;
+    background-position: center;
+}
+
+.heading{
+    margin-bottom: 5px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: left;
+    font-family: 'Aref Ruqaa Ink', serif;
+
+}
+
+#instruction{
+    float: right;
+    margin-top: -30px;
+    font-size: 17px;
+}
+
+canvas{
+    box-shadow: 5px 5px 5px rgb(56, 56, 56);
+    border-radius: 18px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+#status, #play{
+    font-size: 18px;
+}
+
+.heading button{
+    float: right;
+    font-size: 15px;
+    border: 2px solid black;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.heading h3{
+    display: inline;
+    font-size: 22px;
+}
+
+.footer{
+    background-color: grey;
+    width: 100%;
+    margin-bottom: 0px;
+    color: white;
+    line-height: 2;
+    bottom: 0px;
+    position: fixed;
+}
+.modal-body{
+    text-align: left;
+}
+
+#restart_button{
+    bottom: 10px;
+    position: fixed;
+}
